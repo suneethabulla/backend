@@ -85,13 +85,12 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	<packaging>war</packaging>
 	<build>
 	<finalName>ecommerce</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
