@@ -84,15 +84,15 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		  <!-- External Tomcat -->
+		<!-- External Tomcat -->
   <dependency>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-tomcat</artifactId>
-    <scop
+    <scope>provided</scope>
+  </dependency>
 	</dependencies>
 	
-e>provided</scope>
-  </dependency>
+  
 	<packaging>war</packaging>
     <build>
         <plugins>
